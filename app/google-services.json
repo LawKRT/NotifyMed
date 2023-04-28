@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "81872810515",
+    "project_id": "notifymed-cc5ca",
+    "storage_bucket": "notifymed-cc5ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:81872810515:android:ba7f19e733123998e045e6",
+        "android_client_info": {
+          "package_name": "com.example.notifymed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "81872810515-t6cve4rdkssnsn1mp7t4c2ub7ftb892v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0Y6x-lUh2ZSOtWZrGAACRub2DEn-DVeE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "81872810515-t6cve4rdkssnsn1mp7t4c2ub7ftb892v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

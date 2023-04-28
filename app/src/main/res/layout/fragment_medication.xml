@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/nmbackground"
+    tools:context=".fragments.MedicationFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="90dp"
+            android:src="@drawable/notifymed" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medication"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:layout_marginTop="11dp" />
+
+        <RelativeLayout
+
+            android:layout_width="364dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="40dp"
+            app:boxBackgroundColor="#F8E9FD">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/dosage"
+                android:layout_width="139dp"
+                android:layout_height="64dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginLeft="7dp"
+                android:hint="@string/Dosage"
+                android:layout_marginTop="2dp"></com.google.android.material.textfield.TextInputEditText>
+
+            <Spinner
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="83dp"
+                android:layout_marginRight="83dp"
+                android:layout_marginBottom="31dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:layout_width="364dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="40dp"
+            app:boxBackgroundColor="#F8E9FD">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/Duration"
+                android:layout_width="139dp"
+                android:layout_height="64dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginLeft="7dp"
+                android:hint="@string/Duration"
+                android:layout_marginTop="2dp"></com.google.android.material.textfield.TextInputEditText>
+
+            <Spinner
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="83dp"
+                android:layout_marginRight="83dp"
+                android:layout_marginBottom="31dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:layout_width="364dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="40dp"
+            app:boxBackgroundColor="#F8E9FD">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/Type"
+                android:layout_width="139dp"
+                android:layout_height="64dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginLeft="7dp"
+                android:hint="@string/Type"
+                android:layout_marginTop="2dp"></com.google.android.material.textfield.TextInputEditText>
+
+            <Spinner
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="83dp"
+                android:layout_marginRight="83dp"
+                android:layout_marginBottom="31dp" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

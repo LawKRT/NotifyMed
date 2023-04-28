@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn= "navigation_view">
+
+<group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/id_medication_Fragment"
+        android:icon="@drawable/baseline_medication_24"
+        android:title="Medication">
+
+<!--        <menu>-->
+<!--            <item android:id="@+id/dosage"-->
+<!--                android:icon="@drawable/baseline_medication_24"-->
+<!--                android:title="@string/Dosage"/>-->
+
+<!--            <item android:id="@+id/Duration"-->
+<!--                android:icon="@drawable/baseline_medication_24"-->
+<!--                android:title="@string/Duration"/>-->
+
+<!--            <item android:id="@+id/Type"-->
+<!--                android:icon="@drawable/baseline_medication_24"-->
+<!--                android:title="@string/Type"/>-->
+
+<!--        </menu>-->
+
+    </item>
+
+    <item
+        android:id="@+id/id_profile_Fragment"
+        android:icon="@drawable/baseline_person_24"
+        android:title="Profile">
+
+<!--        <menu>-->
+<!--            <item android:id="@+id/User"-->
+<!--            android:icon="@drawable/baseline_person_add_24"-->
+<!--            android:title="Add User"/>-->
+
+<!--            <item android:id="@+id/name"-->
+<!--            android:icon="@drawable/baseline_person_add_24"-->
+<!--            android:title="Name"/>-->
+
+
+<!--        </menu>-->
+
+
+
+    </item>
+
+    <item
+        android:id="@+id/id_settings_Fragment"
+        android:icon="@drawable/baseline_settings_24"
+        android:title="Settings">
+<!--        <menu>-->
+<!--            <item android:id="@+id/notification_background"-->
+<!--                android:title="Notification"/>-->
+
+<!--            <item android:id="@+id/Calender"-->
+<!--                android:title="Calender"/>-->
+
+<!--            <item android:id="@+id/About"-->
+<!--                android:title="About"/>-->
+
+<!--            <item android:id="@+id/alarm"-->
+<!--                android:title="Alarm reminder"/>-->
+<!--        </menu>-->
+
+    </item>
+
+</group>
+    <item
+        android:id="@+id/id_login_activity"
+        android:icon="@drawable/baseline_settings_24"
+        android:title="Register">
+        <menu>
+
+            <item android:id="@+id/register"
+                android:title="Register"/>
+
+        </menu>
+
+    </item>
+</menu>
